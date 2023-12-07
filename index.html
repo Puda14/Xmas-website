@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xmas-website by Puda14</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script-snow.js"></script>
+  <script defer src="script.js"></script>
+</head>
+
+  
+<body>
+
+<audio id="backgroundMusic" controls loop>
+    <source src="Xmas-music.mp3" type="audio/mp3">
+</audio>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var audio = document.getElementById('backgroundMusic');
+        audio.play();
+        audio.addEventListener('ended', function () {
+            audio.currentTime = 0;
+            audio.play();
+        });
+    });
+</script>
+
+<div id="giftContainer">
+    <div id="giftContent">Phần quà sẽ thành hiện thực nếu bạn đọc được<br> hết nội dung của nó trong vòng 10s</div>
+    <button class="custom-btn btn-5" id="showGiftButton">Nhận Quà</button>
+</div>
+    
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Codystar">
+    <h1>HAPPY XMAS</h1>
+    <div id="snow"></div>
+
+<div class="snowman">
+  <div class="body">
+    <div class="head"></div>
+    <div class="hat"></div>
+    <div class="scarf"></div>
+    <div class="buttons"></div>
+    <div class="hands">
+      <div class="right-hand"></div>
+      <div class="left-hand"></div>
+    </div>
+    <div class="shadow"></div>
+  </div>
+</div>
+
+
+<div class="container"> 
+  <div class="star"></div>
+  <div class="pressie">
+    <div class="cover"></div>
+    <div class="wrap"> </div>
+    <div class="ribbon"></div>
+  </div>
+  <div class="tree">
+    <div class="base"> </div>
+    <div class="layer">
+      <div class="line"> </div>
+      <div class="bauble one"></div></div>
+    
+    <div class="layer two">
+      <div class="line two"> </div>
+      <div class="bauble two"></div>
+      <div class="socks"> 
+        <div class="top"> </div>
+        <div class="foot"></div></div>
+      </div>
+    
+    <div class="layer three">
+      <div class="line three"> </div>
+      <div class="bauble three"></div>
+      <div class="socks two"> 
+        <div class="top"> </div>
+        <div class="foot two"></div></div>
+      </div>
+       </div>
+    
+    <div class="layer four">
+      <div class="bauble four"></div>
+      <div class="star two"></div>
+      <div class="line four"> </div> 
+       </div>
+  </div>
+</div>
+</body>
+</html>
